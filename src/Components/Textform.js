@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-//import PropTypes from 'prop-types'
+
 
 export default function Textform(props){
     
@@ -50,9 +50,9 @@ export default function Textform(props){
 
         <div className = "container my-2">
             <h2>Text summary</h2>
-            <p>Words -> {text.split(" ").length}</p>
-            <p>Characters -> {text.length}</p>
-            <p>Approx minutes to read -> {0.008 * text.split(" ").length}</p>
+            <p>Words -> <span className="btn btn-primary mx-1">{text.split(" ").length}</span></p>
+            <p>Characters -> <span className="btn btn-primary mx-1">{text.length}</span></p>
+            <p>Approx minutes to read -> <span className="btn btn-primary mx-1">{0.008 * text.split(" ").length}</span></p>
             <h2>Preview</h2>
             <p>{text}</p>
         </div>
