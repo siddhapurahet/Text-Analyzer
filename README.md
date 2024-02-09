@@ -7,6 +7,8 @@
 &nbsp; --> counting words in text.<br>
 <br>
 
+Note: The code is in the other branch --> ( master ) <br>
+
 --> Preview of The Application : <br>
 
 &nbsp;--> Image showing the text input, word count and character count.
